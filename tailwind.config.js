@@ -3,7 +3,7 @@ import themer from "@tailus/themer";
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-    content: ["./*.html", "./*.js"],
+    content: ["./*.html", "./*.js", "./src/**/*.html", "./src/**/*.js"],
     darkMode: "media",
     safelist: ["isToggled"],
     theme: {
